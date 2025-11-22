@@ -23,7 +23,7 @@ export const Header = () => {
             width={58}
             height={49}
             src="/images/logo.svg"
-            alt="Logo GB Dev"
+            alt="Logo "
           />
         </Link>
         <nav className="flex items-center gap-4 sm:gap-10">
