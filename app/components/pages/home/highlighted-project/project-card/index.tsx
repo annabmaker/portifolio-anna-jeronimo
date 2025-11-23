@@ -1,6 +1,6 @@
 import { TechBadge } from "@/app/components/tech-badge"
 import Image from "next/image"
-import Link from "next/link"
+import { Link } from "@/app/components/link"
 import {  HiArrowNarrowRight } from "react-icons/hi"
 
 export const ProjectCard = () => {
