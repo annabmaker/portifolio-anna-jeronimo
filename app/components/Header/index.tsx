@@ -1,7 +1,7 @@
 'use client'
-import Image from "next/image";
-import Link from "next/link";
-import { NavItem } from "./nav-item";
+import Image from 'next/image';
+import Link from 'next/link';
+import { NavItem } from './nav-item';
 
 const NAV_ITEMS = [
   {
