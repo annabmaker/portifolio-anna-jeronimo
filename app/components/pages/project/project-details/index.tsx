@@ -1,9 +1,9 @@
 import { TbBrandGithub } from "react-icons/tb"
-import { Button } from "../../button"
-import { SectionTitle } from "../../section-title"
-import { TechBadge } from "../../tech-badge"
+import { Button } from "../../../button"
+import { SectionTitle } from "../../../section-title"
+import { TechBadge } from "../../../tech-badge"
 import {FiGlobe} from 'react-icons/fi'
-import { Link } from "../../link"
+import { Link } from "../../../link"
 import { HiArrowNarrowLeft } from "react-icons/hi"
 
 export const ProjectDetails = () =>{
@@ -42,7 +42,7 @@ export const ProjectDetails = () =>{
                      <a href="https://github.com/annabmaker" target="_blank">
                     <Button className="min-w-[180px]">
                         <FiGlobe size={20} />
-                        Projeto Localhost 
+                        Projeto Online
                     </Button>
                     </a>
                 </div>
@@ -53,3 +53,8 @@ export const ProjectDetails = () =>{
         </section>
     )
 }
+
+/*Aqui é para adiconar os links para o github, <a> é uma tag de link 
+na qual permite que eu possa colocar um link externo.  
+Aqui adiconamos a o botão voltar para home e fiz uma renderização com page/home
+*/

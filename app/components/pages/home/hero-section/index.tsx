@@ -1,3 +1,5 @@
+/** Para usar esse componente precisa ser client */
+
 import { Button } from "@/app/components/button"
 import { TechBadge } from "@/app/components/tech-badge"
 import Image from "next/image"
@@ -21,6 +23,12 @@ icon: <TbBrandWhatsapp />
 
 
 export const HeroSection = () => {
+    const handleContact = () =>{
+        const contactSection = document.querySelector('#contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({behavior: 'smooth'}); /** Aqui para fazer um scrool, que voltará até o contato */
+        }
+    }
     return(
         <section className="w-full lg:h-[755px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10
         py-32 lg:pb-[110px]" >
@@ -35,15 +43,15 @@ export const HeroSection = () => {
                         na área de TI, com grande entusiasmo para contribuir e crescer profissionalmente.
                         Tenho como objetivo criar interfaces de usuário elegantes, intuitivas e funcionais, 
                         sempre focando na melhor experiência para quem utiliza. Além do front-end,
-                        também sou fascinada pelo universo do back-end, especialmente em tarefas como 
+                        também gosto do universo do back-end, especialmente em tarefas como 
                         integração e conexão com bancos de dados.</p>
                 <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]"> 
-                    {Array.from({length: 7}).map ((_, index)=> (
-                        <TechBadge name= "Next.js" />
+                    {Array.from({length: 6}).map ((_, index)=> (
+                        <TechBadge name= "HTML5" />
                     ))}
                      </div>
                 <div className="mt-6 flex sm:items-center sm:gap-5 flex-col sm:flex-row"> 
-                    <Button className="w-max shadow-button">
+                    <Button className="w-max shadow-button" onClick={handleContact}>
                         Entre em contato!
                         <HiArrowNarrowRight size={18} />
                     </Button>

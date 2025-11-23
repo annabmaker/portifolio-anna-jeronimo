@@ -1,5 +1,8 @@
+'use client'
+
 import { cn } from "@/app/lib/utils"
 import { ButtonHTMLAttributes } from "react"
+
 type ButtonPropos = ButtonHTMLAttributes<HTMLButtonElement>
 /* Aqui é a parte da estilização do botão, biblioteca HTML baixada utilizando  o utilitario
 cn, caso envie uma ClassName constumizada quero que seja feita pelo botão tambem.*/ 

@@ -33,12 +33,9 @@ export const ProjectCard = () => {
                         contato e às redes sociais. 
                 </p>
                 <div className="flex gap-x-2 gap-y-3 flex-wrap mb-8 lg:max-w-[350px]">
-                    <TechBadge name="Next.js" />
-                    <TechBadge name="Next.js" />
-                    <TechBadge name="Next.js" />
-                     <TechBadge name="Next.js" />
-                     <TechBadge name="Next.js" />
-                     <TechBadge name="Next.js" />
+                    <TechBadge name="CSS3" />
+                    <TechBadge name="HTML5" />
+                    <TechBadge name="Bootstrap" />
                 </div>
                 <Link href= "/projects/Art">
                 Ver projeto

@@ -3,7 +3,7 @@
 import { HorizontalDivider } from "@/app/components/divider/horizontal"
 import { SectionTitle } from "@/app/components/section-title"
 import { ProjectCard } from "./project-card"
-import { HiArrowCircleRight, HiArrowNarrowRight } from "react-icons/hi"
+import {  HiArrowNarrowRight } from "react-icons/hi"
 import { Link } from "@/app/components/link"
 
 export const Highlightedprojects = () =>{
