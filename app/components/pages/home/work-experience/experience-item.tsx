@@ -26,14 +26,13 @@ export const ExperienceItem = () => {
                     </a>
                     <h4 className="text-gray-300"></h4> 
                     <span className="text-gray-500"></span> 
-                    <p className="text-gray-400"> Meu objetivo é alcançar grandes empresas como a Google, 
-                        mas acima de tudo, estarei sempre fazendo o meu melhor!</p>
+                    <p className="text-gray-400"> 
+                        Minha meta de longo prazo é desenvolver o conjunto de habilidades e a
+                         experiência necessários para ingressar na Google e contribuir com inovações
+                          para a  experiência do cliente.</p>
                 </div>
-                <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold"> Competências</p>
+                <p className="text-gray-400 text-sm mb-3 mt-6 font-semibold"></p>
                 <div className="flex gap-x-2 gap-y-3 flex-wrap lg:max-w-[350px] mb-8">
-                    <TechBadge  name="React"/>
-                    <TechBadge  name="React"/>
-                    <TechBadge  name="React"/>
                 </div>
             </div>
         </div>

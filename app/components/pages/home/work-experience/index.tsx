@@ -17,7 +17,7 @@ export const WorkExperience = () =>{
 
             <div className="flex flex-col gap-4">
                 <ExperienceItem />
-                <ExperienceItem />
+                
             </div>
         </section>
     )

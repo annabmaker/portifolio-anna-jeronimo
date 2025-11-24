@@ -14,6 +14,8 @@ export const ProjectCard = () => {
             alt= "Thumbnail do projeto Art"
             className="w-full h-[200px] sm:h-[300px] lg:w-[420px] lg:min-h-full object-cover rounded-lg"
             />
+
+            
             </div>
             <div>
                <h3 className="flex items-center gap-3 font-medium text-lg text-gray-50">
@@ -22,7 +24,7 @@ export const ProjectCard = () => {
                 height={20}
                 alt=""
                 src= "/images/icons/project-title-icon.svg"
-                /> Art 
+                /> Art
                 </h3> 
                 <p className="text-gray-400 my-6">
                      O site Art é um projeto  com o objetivo de apresentar

@@ -1,4 +1,4 @@
-// criando a sessão de projetos em destaques
+// criando a sessão de projetos em destaques aqui é a parte dos projetos
 
 import { HorizontalDivider } from "@/app/components/divider/horizontal"
 import { SectionTitle } from "@/app/components/section-title"
@@ -15,8 +15,8 @@ export const Highlightedprojects = () =>{
         <div>
              <ProjectCard />
           <HorizontalDivider className="my-16" />
-          <ProjectCard />
-          <HorizontalDivider className="my-16"/>
+          
+          
 
           <p className="flex items-center gap-1.5">
             <span className="text-gray-400"> Se interessou?</span>
